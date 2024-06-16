@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 25rem;
+  margin: 3rem auto;
+  padding: 3rem;
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+  width: 5.5rem;
+}
+
+h1 {
+  margin: 1.6rem 0 .8rem 0;
+}
+
+h2 {
+  color: hsl(75, 94%, 57%);
+  font-size: 1.1rem;
+}
+
+p {
+  font-size: .9rem;
+  font-weight: 600;
+  margin: 1.5rem 0;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: .5rem;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  text-decoration: none;
+  height: 2.5rem;
+  width: 100%;
+}
+
+a + a {
+  margin-top: 1rem;
+}
+
+a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+  cursor: pointer;
+  transition: .2s ease-out;
+}
